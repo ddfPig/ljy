@@ -1,0 +1,21 @@
+{
+  "name": "ddfpig/ljy",
+  "description": "开发包测试",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ddfPig",
+      "email": "ddf-128@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "tools\\": "src/"
+    }
+  }
+}
